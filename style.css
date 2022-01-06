@@ -37,3 +37,29 @@ h1{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 5px;
+}
+.experience-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-stuck-experience{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple tomato);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+}
